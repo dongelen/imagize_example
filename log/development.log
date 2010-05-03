@@ -1,0 +1,387 @@
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:15:07) [GET]
+Rendering example/index
+Completed in 89ms (View: 87, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:15:51) [GET]
+Rendering example/index
+Completed in 50ms (View: 48, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:18:04) [GET]
+Rendering example/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:19:20) [GET]
+Rendering example/index
+Completed in 29ms (View: 27, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:20:05) [GET]
+Rendering example/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:20:08) [POST]
+  Parameters: {"model"=>{"textfield"=>"f"}, "authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "_"=>""}
+
+ActionView::MissingTemplate (Missing template example/images.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-03 22:23:07) [GET]
+
+MissingSourceFile (no such file to load -- imagizer):
+  app/controllers/example_controller.rb:1
+
+Rendered rescues/_trace (43.6ms)
+Rendered rescues/_request_and_response (1.7ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-05-03 22:23:09) [GET]
+
+MissingSourceFile (no such file to load -- imagizer):
+  app/controllers/example_controller.rb:1
+
+Rendered rescues/_trace (39.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:23:27) [GET]
+Rendering example/index
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:24:00) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "7f895b8f26bed8a00f9bbadb37d34b0eb498a73b"=>nil, "_"=>""}
+
+TypeError (can't clone NilClass):
+  imagize (0.1.0) lib/Imagize.rb:49:in `clone'
+  imagize (0.1.0) lib/Imagize.rb:49:in `imagize'
+  app/controllers/example_controller.rb:5:in `images'
+
+Rendered rescues/_trace (39.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:24:20) [GET]
+Rendering example/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:24:41) [POST]
+  Parameters: {"model"=>{"textfield"=>""}, "authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "_"=>""}
+
+TypeError (can't clone NilClass):
+  imagize (0.1.0) lib/Imagize.rb:49:in `clone'
+  imagize (0.1.0) lib/Imagize.rb:49:in `imagize'
+  app/controllers/example_controller.rb:6:in `images'
+
+Rendered rescues/_trace (123.5ms)
+Rendered rescues/_request_and_response (0.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:25:21) [GET]
+Rendering example/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:25:23) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "tweet"=>"", "_"=>""}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:25:24) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "tweet"=>"", "_"=>""}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:25:25) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "tweet"=>"f", "_"=>""}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:25:58) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "tweet"=>"\"MitchBHavin @themdudez http://yfrog.com/16y0", "_"=>""}
+Rendered example/_image (0.6ms)
+Completed in 8ms (View: 7, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:26:24) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "tweet"=>"\"MitchBHavin @themdudez http://yfrog.com/16y0", "_"=>""}
+Rendered example/_image (0.7ms)
+Completed in 9ms (View: 7, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:27:08) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "id"=>"1125", "_"=>""}
+
+TypeError (can't clone NilClass):
+  imagize (0.1.0) lib/Imagize.rb:49:in `clone'
+  imagize (0.1.0) lib/Imagize.rb:49:in `imagize'
+  app/controllers/example_controller.rb:6:in `images'
+
+Rendered rescues/_trace (39.4ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:27:33) [GET]
+Rendering example/index
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:27:36) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "id"=>"1125", "_"=>""}
+
+TypeError (can't clone NilClass):
+  imagize (0.1.0) lib/Imagize.rb:49:in `clone'
+  imagize (0.1.0) lib/Imagize.rb:49:in `imagize'
+  app/controllers/example_controller.rb:6:in `images'
+
+Rendered rescues/_trace (39.1ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:27:56) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "tweet"=>"http://www.hi.com/1/2/3/x.gif", "_"=>""}
+Rendered example/_image (0.2ms)
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:28:46) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "_"=>"", "! *-*"=>nil}
+
+TypeError (can't clone NilClass):
+  imagize (0.1.0) lib/Imagize.rb:49:in `clone'
+  imagize (0.1.0) lib/Imagize.rb:49:in `imagize'
+  app/controllers/example_controller.rb:6:in `images'
+
+Rendered rescues/_trace (44.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:29:00) [GET]
+Rendering example/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:29:02) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "_"=>"", "! *-*"=>nil}
+
+TypeError (can't clone NilClass):
+  imagize (0.1.0) lib/Imagize.rb:49:in `clone'
+  imagize (0.1.0) lib/Imagize.rb:49:in `imagize'
+  app/controllers/example_controller.rb:6:in `images'
+
+Rendered rescues/_trace (126.9ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:29:40) [GET]
+Rendering example/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:30:10) [GET]
+Rendering example/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:30:17) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "! "=>nil, "_"=>""}
+
+TypeError (can't clone NilClass):
+  imagize (0.1.0) lib/Imagize.rb:49:in `clone'
+  imagize (0.1.0) lib/Imagize.rb:49:in `imagize'
+  app/controllers/example_controller.rb:6:in `images'
+
+Rendered rescues/_trace (39.6ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:30:39) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "tweet"=>"x", "_"=>""}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:31:02) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "_"=>"", "! *-*"=>nil}
+
+TypeError (can't clone NilClass):
+  imagize (0.1.0) lib/Imagize.rb:49:in `clone'
+  imagize (0.1.0) lib/Imagize.rb:49:in `imagize'
+  app/controllers/example_controller.rb:6:in `images'
+
+Rendered rescues/_trace (123.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:34:29) [GET]
+Rendering example/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:34:33) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "tweet"=>"link_to_remote", "_"=>""}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:34:50) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "tweet"=>"This is some message http://is.gd/bSD5l but shortened", "_"=>""}
+Rendered example/_image (0.2ms)
+Completed in 200ms (View: 2, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:35:42) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "tweet"=>"Hallo bnfgjfdgbfd http://tweetphoto.com/16793555 Fiets", "_"=>""}
+Rendered example/_image (0.2ms)
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:36:17) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "tweet"=>"Hallo bnfgjfdgbfd http://tweetphoto.com/16793555 Fiets Hallo bnfgjfdgbfd http://tweetphoto.com/16793555 Fiets", "_"=>""}
+Rendered example/_image (0.2ms)
+Rendered example/_image (0.1ms)
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:36:50) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "tweet"=>"Hallo bnfgjfdgbfd http://tweetphoto.com/16793555 Fiets SanazMc http://tweetphoto.com/12870944 @justinbieber OMG ITS KOBE!!!!!!! Ohmygodd he is tall I LOVE YOU JUSTIN AND KOBE RULESS", "_"=>""}
+Rendered example/_image (0.2ms)
+Rendered example/_image (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:37:17) [GET]
+Rendering example/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:37:27) [GET]
+Rendering example/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:37:35) [GET]
+Rendering example/index
+Completed in 14ms (View: 11, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:38:04) [GET]
+Rendering example/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:38:39) [GET]
+Rendering example/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:38:46) [GET]
+Rendering example/index
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:38:58) [GET]
+Rendering example/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:39:09) [GET]
+Rendering example/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:39:24) [GET]
+Rendering example/index
+Completed in 11ms (View: 10, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:39:33) [GET]
+Rendering example/index
+Completed in 12ms (View: 11, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:39:40) [GET]
+Rendering example/index
+Completed in 12ms (View: 10, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:39:55) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "tweet"=>"SanazMc http://tweetphoto.com/12870944 @justinbieber OMG ITS KOBE!!!!!!! Ohmygodd he is tall I LOVE YOU JUSTIN AND KOBE RULESS", "_"=>""}
+Rendered example/_image (0.2ms)
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:40:00) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "tweet"=>"SanazMc http://tweetphoto.com/12870944 @justinbieber OMG ITS KOBE!!!!!!! Ohmygodd he is tall I LOVE YOU JUSTIN AND KOBE RULESS SanazMc http://tweetphoto.com/12870944 @justinbieber OMG ITS KOBE!!!!!!! Ohmygodd he is tall I LOVE YOU JUSTIN AND KOBE RULESS", "_"=>""}
+Rendered example/_image (0.2ms)
+Rendered example/_image (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-03 22:40:11) [GET]
+Rendering example/index
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/example]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:40:13) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "tweet"=>"SanazMc http://tweetphoto.com/12870944 @justinbieber OMG ITS KOBE!!!!!!! Ohmygodd he is tall I LOVE YOU JUSTIN AND KOBE RULESS", "_"=>""}
+Rendered example/_image (0.7ms)
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:40:14) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "tweet"=>"SanazMc http://tweetphoto.com/12870944 @justinbieber OMG ITS KOBE!!!!!!! Ohmygodd he is tall I LOVE YOU JUSTIN AND KOBE RULESS", "_"=>""}
+Rendered example/_image (0.2ms)
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:40:16) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "tweet"=>"SanazMc http://tweetphoto.com/12870944 @justinbieber OMG ITS KOBE!!!!!!! Ohmygodd he is tall I LOVE YOU JUSTIN AND KOBE RULESS\nSanazMc http://tweetphoto.com/12870944 @justinbieber OMG ITS KOBE!!!!!!! Ohmygodd he is tall I LOVE YOU JUSTIN AND KOBE RULESS", "_"=>""}
+Rendered example/_image (0.2ms)
+Rendered example/_image (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:40:28) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "tweet"=>"SanazMc http://tweetphoto.com/12870944 @justinbieber OMG ITS KOBE!!!!!!! Ohmygodd he is tall I LOVE YOU JUSTIN AND KOBE RULESS\nSanazMc http://tweetphoto.com/12870944 @justinbieber OMG ITS KOBE!!!!!!! Ohmygodd he is tall I LOVE YOU JUSTIN AND KOBE RULESSTheaTierisch http://tweetphoto.com/20964832 @whatevershiny i just like to play around with makeup ", "_"=>""}
+Rendered example/_image (0.2ms)
+Rendered example/_image (0.1ms)
+Rendered example/_image (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:40:32) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "tweet"=>"SanazMc http://tweetphoto.com/12870944 @justinbieber OMG ITS KOBE!!!!!!! Ohmygodd he is tall I LOVE YOU JUSTIN AND KOBE RULESS\nSanazMc http://tweetphoto.com/12870944 @justinbieber OMG ITS KOBE!!!!!!! Ohmygodd he is tall I LOVE YOU JUSTIN AND KOBE RULESSTheaTierisch http://tweetphoto.com/20964832 @whatevershiny i just like to play around with makeup ", "_"=>""}
+Rendered example/_image (0.2ms)
+Rendered example/_image (0.1ms)
+Rendered example/_image (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:40:40) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "tweet"=>"TheaTierisch http://tweetphoto.com/20964832 @whatevershiny i just like to play around with makeup ", "_"=>""}
+Rendered example/_image (0.2ms)
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:41:00) [POST]
+  Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "tweet"=>"TAK_NYC OHWOW bookstore. Thanks @AaronBondaroff for Backdoor book. http://yfrog.com/861acj", "_"=>""}
+Rendered example/_image (0.2ms)
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/example/images]

@@ -1,0 +1,15 @@
+<head>
+<%= javascript_include_tag :defaults %>
+</head>
+<body>
+<form>
+	<textarea id="tweet" rows="10" cols="100"></textarea><br>
+	<%= link_to_remote 'Show', {:update => "images", :url => {:controller => "example", :action => "images"}, 
+	:with => "'tweet=' + $F('tweet')"}%>             
+
+</form>
+
+
+<div id="images">
+</div>
+</body>

@@ -385,3 +385,18 @@ Processing ExampleController#images (for 127.0.0.1 at 2010-05-03 22:41:00) [POST
   Parameters: {"authenticity_token"=>"8J0h/wrsdjU2D6iRfFIB/2AjvBiwZhCoNUCZWZXmbEc=", "tweet"=>"TAK_NYC OHWOW bookstore. Thanks @AaronBondaroff for Backdoor book. http://yfrog.com/861acj", "_"=>""}
 Rendered example/_image (0.2ms)
 Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-04 09:35:15) [GET]
+Rendering example/index
+Completed in 71ms (View: 69, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-05-04 09:35:36) [GET]
+Rendering example/index
+Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-05-04 09:35:44) [POST]
+  Parameters: {"authenticity_token"=>"qp0Fcz1jS14mtLUPzhYxZSONzVaF7CzzxQZKclJm9bA=", "tweet"=>"http://github.com/dongelen/imagize_example", "_"=>""}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/example/images]

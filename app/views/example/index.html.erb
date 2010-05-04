@@ -1,7 +1,9 @@
 <head>
 <%= javascript_include_tag :defaults %>
 </head>
-<body>
+<body>       
+<h1>Tweet visualizer</h1>
+Paste a twitter message containing links to images.
 <form>
 	<textarea id="tweet" rows="10" cols="100"></textarea><br>
 	<%= link_to_remote 'Show', {:update => "images", :url => {:controller => "example", :action => "images"}, 
@@ -11,5 +13,6 @@
 
 
 <div id="images">
-</div>
+</div> 
+<p>Created by Raymond van Dongelen. Code can be found on <a href="http://github.com/dongelen/imagize_example">github</a></p>
 </body>

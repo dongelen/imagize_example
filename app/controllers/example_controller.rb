@@ -1,4 +1,4 @@
-require "Imagize"
+require "imagize"
 class ExampleController < ApplicationController      
   def images     
     imagizer = Imagize::Imagizer.new            

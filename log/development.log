@@ -400,3 +400,51 @@ Completed in 13ms (View: 11, DB: 0) | 200 OK [http://localhost/]
 Processing ExampleController#images (for 127.0.0.1 at 2010-05-04 09:35:44) [POST]
   Parameters: {"authenticity_token"=>"qp0Fcz1jS14mtLUPzhYxZSONzVaF7CzzxQZKclJm9bA=", "tweet"=>"http://github.com/dongelen/imagize_example", "_"=>""}
 Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#index (for 127.0.0.1 at 2010-09-13 21:03:36) [GET]
+Rendering example/index
+Completed in 261ms (View: 259, DB: 0) | 200 OK [http://localhost/]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-09-13 21:05:12) [POST]
+  Parameters: {"tweet"=>"B0RNDAii_0915 \n  \n", "_"=>""}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-09-13 21:05:15) [POST]
+  Parameters: {"tweet"=>"B0RNDAii_0915 \n  \n", "_"=>""}
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-09-13 21:05:27) [POST]
+  Parameters: {"authenticity_token"=>"l0ATL8QQVYYbiln/Ywzez4zp0OBcJ8BZusk+RMrDDMg=", "tweet"=>"GovBrewer \n  \nAt the Navajo Nation Fair in Window Rock...talking with President Dr. Joe Shirley, Jr. http://plixi.com/p/44774403", "_"=>""}
+Rendered example/_image (25.2ms)
+Completed in 119ms (View: 41, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-09-13 21:05:53) [POST]
+  Parameters: {"authenticity_token"=>"l0ATL8QQVYYbiln/Ywzez4zp0OBcJ8BZusk+RMrDDMg=", "tweet"=>"TOO CHRIS BROWN LIL BIRD http://plixi.com/p/44774710", "_"=>""}
+Rendered example/_image (0.2ms)
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/example/images]
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-09-13 21:06:12) [POST]
+  Parameters: {"SHOUTOUT TOO CHRIS BROWN LIL BIRD http://plixi.com/p/44774710\n7:40 PM Sep 12th via Plixi\nTop Tweet 2 Retweets\n\nGovBrewer \nAt the Navajo Nation Fair in Window Rock...talking with President Dr. Joe Shirley, Jr. http://plixi.com/p/44774403\n7:38 PM Sep 12th via ÜberTwitter\nTop Tweet 4 Retweets\n\ndimaslavy \nCan you put baby blue on the wall please RT @SabrinaAthika: Prank no.2 at by the way distro @Miked_MIC http://plixi.com/p/44955887\nless than 10 seconds ago via ÜberTwitter\n\nthakidjay \nMa girl @THELILMOSHOW on the radio now doin her good hollerin!! LOL http://plixi.com/p/44957343"=>nil, "authenticity_token"=>"l0ATL8QQVYYbiln/Ywzez4zp0OBcJ8BZusk+RMrDDMg=", "_"=>""}
+
+TypeError (can't clone NilClass):
+  imagize (0.2.0) lib/imagize.rb:54:in `clone'
+  imagize (0.2.0) lib/imagize.rb:54:in `imagize'
+  app/controllers/example_controller.rb:5:in `images'
+
+Rendered rescues/_trace (46.0ms)
+Rendered rescues/_request_and_response (1.9ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExampleController#images (for 127.0.0.1 at 2010-09-13 21:07:10) [POST]
+  Parameters: {"authenticity_token"=>"l0ATL8QQVYYbiln/Ywzez4zp0OBcJ8BZusk+RMrDDMg=", "tweet"=>"et 2 Retweets\n\nGovBrewer \nAt the Navajo Nation Fair in Window Rock...talking with President Dr. Joe Shirley, Jr. http://plixi.com/p/44774403\n7:38 PM Sep 12th via ÜberTwitter\nTop Tweet 4 Retweets\n\ndimaslavy \nCan you put baby blue on the wall please RT @SabrinaAthika: Prank no.2 at by the way distro @Miked_MIC http://plixi.com/p/44955887\nless than 10 seconds ago via ÜberTwitter\n\nthakidjay \nMa girl @THELILMOSHOW on the radio now doin her good hollerin!! LOL http://plixi.com/p/44957343", "_"=>""}
+Rendered example/_image (0.2ms)
+Rendered example/_image (0.1ms)
+Rendered example/_image (0.1ms)
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/example/images]
